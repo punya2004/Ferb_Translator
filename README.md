@@ -1,2 +1,2 @@
 # Ferb_Translator
-Created with CodeSandbox
+## This is a translator app made with VanilaJS.
