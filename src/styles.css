@@ -1,0 +1,63 @@
+#app {
+  justify-content: center;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--yellow-color);
+  margin: 0px;
+}
+
+:root {
+  --yellow-color: #fbbf24;
+}
+
+#input-txt {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 10vh;
+  width: 50%;
+  padding: 1rem;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#btn-translate {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+#output-txt {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 10vh;
+  width: 50%;
+  padding: 1rem;
+  background-color: white;
+  overflow-y: scroll;
+  resize: none;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.navigation {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.ferb-footer {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  border-bottom-right-radius: 1rem;
+  margin-top: 100px;
+}
